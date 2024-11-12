@@ -128,11 +128,17 @@ The emulator uses a 4x4 grid of keys to represent the Chip-8 keypad, which is ma
 
 You can interact with the emulator by pressing these keys.
 
-## Limitations
 
-- **Graphics**: The display is limited to 64x32 pixels. Some more complex graphics might not be rendered correctly.
-- **Sound**: Sound output is basic and may not function properly on all systems.
-- **Speed**: While the emulator runs in real-time, certain systems may experience performance issues with larger ROMs.
+## Tested Using CHIP-8 Test Suite
+
+This CHIP-8 emulator has been tested using the **[CHIP-8 Test Suite](https://github.com/Timendus/chip8-test-suite?tab=readme-ov-file#ibm-logo)**. The test suite contains a variety of programs that ensure the accuracy and functionality of the emulator, including:
+
+- **Display Tests**: Verifying proper screen rendering.
+- **Instruction Set Tests**: Checking if all CHIP-8 instructions are handled correctly.
+- **Sound Tests**: Ensuring the emulator handles audio and timing as expected.
+  
+The emulator passed a number of these tests successfully, which validates the correctness of its implementation of the CHIP-8 architecture.
+
 
 ## Resources and Help
 
