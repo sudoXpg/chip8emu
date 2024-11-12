@@ -82,7 +82,7 @@ sudo apt-get install libsdl2-dev
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/chip8-emulator.git
+git clone https://github.com/sudoXpg/chip8emu
 cd chip8-emulator
 ```
 
