@@ -156,7 +156,3 @@ Contributions are welcome! If you'd like to improve or extend the emulator, feel
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust the content based on your actual implementation details and specific features. This template should give your project a professional appearance and clearly explain its functionality to potential users and contributors.
