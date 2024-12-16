@@ -2,7 +2,7 @@
 
 This is a **Chip-8 emulator** written in C, designed to emulate the 8-bit Chip-8 virtual machine, a popular system used for early video games. It provides a simulation of the Chip-8 architecture and includes the ability to load and execute Chip-8 programs (ROM files). The emulator includes support for graphics rendering, input handling, and sound output.
 
-### Porting to ESP32
+# Porting to ESP32
 
 As part of an ongoing project, the CHIP-8 emulator is being ported to the **ESP32** platform, aiming to run the emulator on a low-power microcontroller with Wi-Fi and Bluetooth capabilities. The ESP32 version of the emulator will take advantage of the device’s processing power and display output capabilities to run CHIP-8 games directly on an attached screen (such as a TFT or OLED display). Additionally, the project aims to integrate wireless controls for game interaction, utilizing the ESP32’s Bluetooth or Wi-Fi features.
 
