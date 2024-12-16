@@ -2,12 +2,30 @@
 
 This is a **Chip-8 emulator** written in C, designed to emulate the 8-bit Chip-8 virtual machine, a popular system used for early video games. It provides a simulation of the Chip-8 architecture and includes the ability to load and execute Chip-8 programs (ROM files). The emulator includes support for graphics rendering, input handling, and sound output.
 
+### Porting to ESP32
+
+As part of an ongoing project, the CHIP-8 emulator is being ported to the **ESP32** platform, aiming to run the emulator on a low-power microcontroller with Wi-Fi and Bluetooth capabilities. The ESP32 version of the emulator will take advantage of the device’s processing power and display output capabilities to run CHIP-8 games directly on an attached screen (such as a TFT or OLED display). Additionally, the project aims to integrate wireless controls for game interaction, utilizing the ESP32’s Bluetooth or Wi-Fi features.
+
+**Key Features of the ESP32 Port:**
+
+- **Wireless Game Control:** Supports using Bluetooth or Wi-Fi for gamepad interaction, offering a wireless gaming experience.
+- **Display Output:** Compatible with various display modules such as TFT, OLED, or other small screens supported by the ESP32.
+- **Optimized for Low Power:** Designed to run efficiently on the ESP32 while minimizing power consumption during game execution.
+- **Portable Emulator:** Run your favorite CHIP-8 games on the go, leveraging the compact and portable nature of the ESP32.
+
+**Current Progress:**
+- Porting the emulator logic to the ESP32 is in progress, and a basic version of the emulator has been successfully compiled and tested on the platform.
+- Work is underway to optimize the performance and add display support for different screens.
+
+You can follow the progress of the port on [GitHub](https://github.com/sudoXpg/ESP32chip8) and stay updated on any new features or changes.
+
+
+
 ## Key Features
 
 - **Multithreaded Audio**: The emulator uses a dedicated audio thread to handle the beep sound. This ensures that audio playback doesn't block the main thread responsible for rendering and handling input events.
 - **Beep Sound**: When the sound timer reaches zero, a beep is omitted.
 - **SDL2 for Graphics**: The emulator uses SDL2 for rendering the 64x32 pixel display and handles user input through the keyboard.
-
 
 ## Table of Contents
 
